@@ -8,7 +8,7 @@ import java.util.List;
 
 
 @RestController
-@RequestMapping(path = "cid", produces = MediaType.APPLICATION_JSON_VALUE)
+@RequestMapping("/")
 public class CIDController {
     public List<Object> search(){
         return List.of(new CID(1, "Hello", 1));
