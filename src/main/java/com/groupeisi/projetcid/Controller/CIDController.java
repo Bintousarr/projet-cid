@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class CIDController {
     @GetMapping
     public String message(){
-        return "TEST REUSSI";
+        return "Vous avez réussi votre test ";
     }
+
 }
